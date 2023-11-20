@@ -1,0 +1,29 @@
+.introduction-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #f5f5f5; /* Light gray background */
+    border-radius: 12px; /* Slightly rounded corners */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px auto; /* Auto margin to horizontally center */
+}
+
+.introduction-text h1 {
+    color: #333333;
+    font-size: 2.5em; /* Slightly larger font size for the title */
+    margin-bottom: 10px;
+}
+
+.introduction-text p {
+    color: #666666; /* Dark gray text color for the content */
+    font-size: 1.4em; /* Slightly larger font size for the content */
+    margin: 0;
+}
+
+.introduction-image img {
+    max-width: 100%;
+    border-radius: 12px; /* Match the border radius of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increased shadow for depth */
+}
+
